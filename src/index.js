@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import "./styles/styles.scss";
 import reportWebVitals from './reportWebVitals';
+import CrawlingForm from './components/crawlingForm';
+import CrawlingResult from './components/crawlingResult';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CrawlingForm/>
+    <CrawlingResult/>
   </React.StrictMode>,
   document.getElementById('root')
 );
